@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "o1ZATGz1EPoqVAyQNMwTn94UPblvs4/E8FU/F1rNnMndnr2X2MHQT33gA5uwl/Y4XSvY3S5M63nTTBDPRcj+aw==",
+  "dgSpecHash": "oVQID13IRV2rfgVkMlYSF+eUR5ckVBFPQTmrqvU54ONqMr/MpwcaI+YynmkbNmhqHmaVEcwzWd+Bc+Lflapbaw==",
   "success": true,
   "projectFilePath": "/home/josue/miPrimerRepo/probando/probando.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "/home/josue/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json' 12.0.3 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
