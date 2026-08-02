@@ -1,6 +1,5 @@
 appssettings.json
 
 /bin
-/obj
-create.js
-efectos.js
+obj
+
